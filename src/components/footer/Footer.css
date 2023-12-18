@@ -1,0 +1,44 @@
+.site-footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section {
+    flex: 1; /* Each section takes equal space */
+    text-align: center;
+}
+
+.top-of-page-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-of-page-btn:hover {
+    background-color: #222; /* Darken color on hover */
+}
+
+.contact-info {
+    display: flex space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
